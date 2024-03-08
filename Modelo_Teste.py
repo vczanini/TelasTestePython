@@ -45,7 +45,7 @@ mouse_positions = []
 running = True
 current_circle = None
 
-with open("mouse_movements.txt", "w") as file:
+with open("mouse_movements3.txt", "w") as file:
     while running:
         screen.fill(WHITE)
         # Draw the central circle
