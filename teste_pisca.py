@@ -75,7 +75,9 @@ while True:
             """
         # if (right_eye[1].y - right_eye[0].y) < 0.022: #QUANDO ENCONTRAR O VALOR COLOCAR ELE AQUI!!!!!!!!!!!!
         #     pyautogui.click()
-        #     pyautogui.sleep(1)
+        #     cam.release()
+        #     cv2.destroyAllWindows()
+    
     cv2.imshow('Selected Area', selected_frame)
     cv2.imshow('Eye Controlled Mouse', frame)
     if cv2.waitKey(10) & 0xFF == ord('c'):
