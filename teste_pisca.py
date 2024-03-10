@@ -75,6 +75,7 @@ while True:
             """
         # if (right_eye[1].y - right_eye[0].y) < 0.022: #QUANDO ENCONTRAR O VALOR COLOCAR ELE AQUI!!!!!!!!!!!!
         #     pyautogui.click()
+        #     pyautogui.sleep(1)
         #     cam.release()
         #     cv2.destroyAllWindows()
     
